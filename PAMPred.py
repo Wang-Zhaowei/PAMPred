@@ -7,8 +7,8 @@ import random
 
 
 def PAMPred():
-    posi_file = './dataset/Posi dataset cdhit.fa'
-    unlabeled_file = './dataset/Filtered negative dataset.fasta'
+    posi_file = './dataset/Positive dataset.fasta'
+    unlabeled_file = './dataset/Negative dataset.fasta'
     posi_samples, unlabeled_samples = data_processing.get_dataset(posi_file, unlabeled_file)
     posi_num = len(posi_samples)
     unlabeled_train_samples, unlabeled_cv_samples = data_processing.generating_unlabeled_cv_data(unlabeled_samples, posi_num)
