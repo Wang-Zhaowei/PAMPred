@@ -40,4 +40,4 @@ python PAMPred.py
 
 ## Citation
 
-Z Wang, J Meng\* et al. PAMPred: A hierarchical evolutionary ensemble framework for identifying plant antimicrobial peptides. Computers in Biology and Medicine, 2023. [Under Review]
+Zhaowei Wang, Jun Meng*, Haibin Li, Shihao Xia, Yu Wang, Yushi Luan. PAMPred: A hierarchical evolutionary ensemble framework for identifying plant antimicrobial peptides. ***Computers in Biology and Medicine***, 166:107545, 2023. DOI: 10.1016/j.compbiomed.2023.107545.
